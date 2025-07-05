@@ -23,3 +23,7 @@ Please follow these steps:
 5. Move the file to the following directory within this project:
   
     `data/streamflow/HF004_daily_streamflow_entity2.csv`
+
+### Citation
+
+> Johnson, S.L., S.M. Wondzell, and J.S. Rothacher. 2023. Stream discharge in gaged watersheds at the HJ Andrews Experimental Forest, 1949 to present ver 35. Environmental Data Initiative. <https://doi.org/10.6073/pasta/62bd85397e23bc9c50c7f652c0cc58ea> (Accessed 2025-07-05).
