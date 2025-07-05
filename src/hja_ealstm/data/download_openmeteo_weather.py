@@ -30,7 +30,7 @@ PARAMS = {
 }
 
 def fetch_openmeteo_data():
-    print("[↓] Requesting data from Open-Meteo API...")
+    print("Requesting data from Open-Meteo API...")
     r = requests.get(URL, params=PARAMS)
     r.raise_for_status()
     data = r.json()
