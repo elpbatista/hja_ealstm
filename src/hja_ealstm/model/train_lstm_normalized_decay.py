@@ -62,7 +62,7 @@ class LSTMRegressor(nn.Module):
 model = LSTMRegressor(input_size=X.shape[2], hidden_size=HIDDEN_SIZE).to(DEVICE)
 loss_fn = nn.MSELoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
-scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', patience=5, factor=0.5, verbose=True)
+scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', patience=5, factor=0.5)
 
 # === NSE metric ===
 def nse(y_true, y_pred):
