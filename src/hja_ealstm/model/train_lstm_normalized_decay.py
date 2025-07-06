@@ -1,5 +1,3 @@
-# src/hja_ealstm/model/train_lstm_normalized_decay.py
-
 import torch
 import torch.nn as nn
 from torch.utils.data import TensorDataset, DataLoader
