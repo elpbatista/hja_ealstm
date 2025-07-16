@@ -54,8 +54,6 @@
 
 ## 4. Next Phase: EA-LSTM Upgrade
 
-You are now transitioning to an **Entity-Aware LSTM** that:
-
 - Integrates static catchment features (e.g., elevation, area)
 - Adds day-of-year encoding to better capture seasonal variation
 - Implements custom loss weighting to emphasize peak flows
